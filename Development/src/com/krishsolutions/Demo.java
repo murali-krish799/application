@@ -8,4 +8,16 @@ public class Demo {
 	public static void main(String[] args) {
 		System.out.println("this is new method");
 	}
+
+	@Override
+	protected Object clone() throws CloneNotSupportedException {
+		// TODO Auto-generated method stub
+		return super.clone();
+	}
+	
+	
+	public void methodExist() {
+		
+		System.out.println("another method has been created here");
+	}
 }
