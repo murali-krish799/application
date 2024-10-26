@@ -9,6 +9,11 @@ public class Client {
 		System.out.println("this is variable value " + i);
 
 	}
+	
+	public void newMethod() {
+		
+		System.out.println("this is new method ");
+	}
 
 	
 	
