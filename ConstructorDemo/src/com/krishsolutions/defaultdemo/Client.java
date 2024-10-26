@@ -10,5 +10,10 @@ public class Client {
 		   
 		 
 	}
+	
+	public void newMethod() {
+		
+		System.out.println("this is new method ");
+	}
 
 }
