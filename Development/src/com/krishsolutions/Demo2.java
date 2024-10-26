@@ -9,7 +9,11 @@ public class Demo2 {
 	}
 
 	public void testDemo() {
+<<<<<<< HEAD
 //comments here main master branch
+=======
+//merging commit here
+>>>>>>> caa531681253432d3a4dbf3630205d3a9c456dc6
 		System.out.println("this is for you..");
 	}
 }
