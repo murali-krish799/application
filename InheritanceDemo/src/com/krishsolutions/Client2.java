@@ -16,6 +16,11 @@ public class Client2  {
 		String returnName = guest2.testString("kris");
 		
 		System.out.println(returnName);
+		
+		System.out.println("****");
+		
+		boolean ifCondition = Guest2.ifCondition("k");
+		System.out.println(ifCondition);
 	}
 
 	

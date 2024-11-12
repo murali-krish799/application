@@ -30,5 +30,14 @@ public class Guest2 implements FirstInterface, SecondInterface {
 		}
 
 	}
+	
+	public static boolean ifCondition(String name) {
+		
+		if(name.contains("krish"))return true;
+			
+			System.out.println("this is after statement");
+		return false;
+		
+	}
 
 }
