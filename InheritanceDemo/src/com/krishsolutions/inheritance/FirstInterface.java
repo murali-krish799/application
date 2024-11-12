@@ -2,7 +2,7 @@ package com.krishsolutions.inheritance;
 
 public interface FirstInterface {
 
-	public void test();
+	public void test(String interfaceName);
 	
 	default void demo() {
 		

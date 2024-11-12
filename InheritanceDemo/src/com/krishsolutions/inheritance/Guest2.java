@@ -3,7 +3,8 @@ package com.krishsolutions.inheritance;
 public class Guest2 implements FirstInterface, SecondInterface {
 
 	@Override
-	public void test() {
+	public void test(String interfaceName) {
+		System.out.println("this is from : " + interfaceName);
 		System.out.println("this is which interface method you only find it herr..");
 
 	}
@@ -30,14 +31,19 @@ public class Guest2 implements FirstInterface, SecondInterface {
 		}
 
 	}
-	
+
 	public static boolean ifCondition(String name) {
-		
-		if(name.contains("krish"))return true;
-			
-			System.out.println("this is after statement");
+
+		if (name.contains("krish"))
+			return true;
+
+		System.out.println("this is after statement");
 		return false;
-		
+
+	}
+
+	public void test() {
+
 	}
 
 }
