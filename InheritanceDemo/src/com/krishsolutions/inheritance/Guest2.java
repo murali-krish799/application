@@ -1,0 +1,34 @@
+package com.krishsolutions.inheritance;
+
+public class Guest2 implements FirstInterface, SecondInterface {
+
+	@Override
+	public void test() {
+		System.out.println("this is which interface method you only find it herr..");
+
+	}
+
+	@Override
+	public void demo() {
+
+		SecondInterface.super.demo();
+	}
+
+	public String testString(String name) {
+		try {
+			if (name.length() < 5) {
+
+				throw new Exception("name length doesn't match here..");
+			} else
+
+			{
+				return name;
+			}
+
+		} catch (Exception e) {
+			return e.getMessage();
+		}
+
+	}
+
+}
