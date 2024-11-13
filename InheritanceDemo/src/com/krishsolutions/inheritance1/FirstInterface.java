@@ -1,4 +1,4 @@
-package com.krishsolutions.inheritance;
+package com.krishsolutions.inheritance1;
 
 public interface FirstInterface {
 

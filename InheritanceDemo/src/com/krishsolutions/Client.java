@@ -1,6 +1,6 @@
 package com.krishsolutions;
 
-import com.krishsolutions.inheritance.Guest;
+import com.krishsolutions.inheritance1.Guest;
 
 public class Client extends Guest {
 

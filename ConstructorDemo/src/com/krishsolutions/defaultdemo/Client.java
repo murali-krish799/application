@@ -2,6 +2,10 @@ package com.krishsolutions.defaultdemo;
 
 public class Client {
 	public static void main(String[] args) {
+		
+		
+		FinalStundent.subject.test();
+		
 
 		ConstructorDemo constructorPractice = new ConstructorDemo(30);
 

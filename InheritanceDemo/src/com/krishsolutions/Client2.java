@@ -1,8 +1,8 @@
 package com.krishsolutions;
 
-import com.krishsolutions.inheritance.FirstInterface;
-import com.krishsolutions.inheritance.Guest2;
-import com.krishsolutions.inheritance.SecondInterface;
+import com.krishsolutions.inheritance1.FirstInterface;
+import com.krishsolutions.inheritance1.Guest2;
+import com.krishsolutions.inheritance1.SecondInterface;
 
 /**multiple inheritance demonstrate here
  * 
