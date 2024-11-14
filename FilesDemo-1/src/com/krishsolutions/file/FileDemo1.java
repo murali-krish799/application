@@ -82,6 +82,26 @@ public class FileDemo1 {
 			}
 		}
 
+		/*Employee emp1= new Employee();
+		Employee emp2= new Employee();
+		Employee emp3= new Employee();
+		Employee emp4= new Employee();
+		
+		Employee[] empList= {emp1,emp2,emp3,emp4};
+		
+		for(Employee emp:empList) {
+			
+			System.out.println(emp.hashCode());
+		}
+	*/
+		
 	}
+	
 
 }
+/*
+ * class Employee{
+ * 
+ * 
+ * }
+ */
