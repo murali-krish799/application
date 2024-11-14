@@ -29,7 +29,8 @@ public class FileReaderDemo {
 		}
 		
 		//demonstrate here filereader to input data
-		
+//		autoclosable interface implementation
+//		try with resource
 		FileReader fr= new FileReader(file);
 	
 		int i;

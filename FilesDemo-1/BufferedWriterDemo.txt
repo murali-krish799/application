@@ -1,0 +1,8 @@
+first line bufferedreader
+second line buffered reader
+
+third line to write from here
+
+ fourth  line to write from here
+
+ fiveth  line to write from here

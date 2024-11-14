@@ -1,0 +1,3 @@
+this is buffered reader related data here provide
+	this is second line of this file
+		
