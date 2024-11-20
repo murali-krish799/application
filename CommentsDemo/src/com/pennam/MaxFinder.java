@@ -1,4 +1,4 @@
-package com.krishsolutions;
+package com.pennam;
 
 @FunctionalInterface
 public interface MaxFinder {

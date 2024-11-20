@@ -1,8 +1,7 @@
-package com.krishsolutions;
+package com.pennam;
 
 import java.util.Arrays;
 import java.util.List;
-import java.util.stream.Stream;
 
 /**
  * who create class what is version of when create class what type of versions
@@ -45,8 +44,6 @@ public class CommentsPractice {
 
 	public static void main(String[] args) {
 //		CommentsPractice.creditCardDemo();
-		
-		
 		CommentsPractice.creditCardDemo();
 
 		String name = " linga ";
