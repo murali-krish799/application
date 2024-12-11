@@ -1,0 +1,34 @@
+package com.krishsolutions.equals;
+
+/**we  are going to demonstrate of equals method of every class in java
+ * 
+ */
+public class EqualsDemo extends Object{
+	
+	public static void main(String[] args) {
+		
+		//i am storing here scp of heap in runtime data area in jdk
+		String name1="linaga babu";//74277480
+		String name2="linaga babu";//74277480
+		
+		//== means looking always hashcode comparison
+		System.out.println(name1==name2);
+		
+		
+		//this
+		System.out.println(name1.hashCode()+": "+name2.hashCode());
+		
+		System.out.println(name1.equals(name2));
+		
+		String word= new String("babu");//1223
+		String word2= new String("babu");
+		
+		
+		
+		
+		System.out.println("  ");
+	}
+	
+	
+
+}

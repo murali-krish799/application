@@ -1,0 +1,35 @@
+package com.krishsolutions.equals;
+
+/**we  are going to demonstrate of equals method of every class in java
+ * 
+ */
+public class EqualsDemo {
+	//non static variable
+	String name3="murali";
+	
+	//static variable
+	static String name="krishna";
+	
+	public static void main(String[] args) {
+		String name5 = EqualsDemo.name;
+		
+		name5="demo";
+		
+		System.out.println(name5);
+		EqualsDemo equalsDemo= new EqualsDemo();
+		
+		String name4 = equalsDemo.name3;
+	name4="pennam";
+		System.out.println(name4);
+		//i am storing here scp of heap in runtime data area in jdk
+		String name1="linaga babu";//12234
+		String name2="linaga babu";//12234
+		
+		System.out.println(name1.hashCode()+": ");
+		
+		
+	}
+	
+	
+
+}

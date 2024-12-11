@@ -1,0 +1,14 @@
+package com.krishsolutions.equals;
+
+/**we  are going to demonstrate of equals method of every class in java
+ * 
+ */
+public class EqualsDemo {
+	
+	//i am storing here scp of heap in runtime data area in jdk
+	String name1="linaga babu";
+	String name2="linaga babu";
+	
+	
+
+}
