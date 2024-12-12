@@ -1,0 +1,19 @@
+package com.krishsolutions.immutable;
+
+/**we are going to demonstrate here immutable concept
+ * immutable means can't change the state and data
+ * if change the data means can create new obj doesn't looking to current 
+ * object that is called immutable
+ * 
+ */
+public class ImmutableDemo {
+	
+	public static void main(String[] args) {
+		String name1="beulah";
+		String name=new String("babu");
+		
+		
+	}
+
+
+}

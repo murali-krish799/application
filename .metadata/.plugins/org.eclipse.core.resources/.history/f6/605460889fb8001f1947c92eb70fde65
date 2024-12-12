@@ -1,0 +1,30 @@
+package com.krishsolutions.mutable;
+//mutable class we need to prove weather mutable or immutable 
+public class LingaBabu {//extends Object
+	
+	private String name;//="babu";
+	private  int age;//=10;
+	
+	public LingaBabu(String name, int age) {
+		this.name = name;
+		this.age = age;
+	}
+	public String getName() {
+		return name;
+	}
+	public void setName(String name) {
+		this.name = name;
+	}
+	public int getAge() {
+		return age;
+	}
+	public void setAge(int age) {
+		this.age = age;
+	}
+	@Override
+	public String toString() {
+		return "LingaBabu [name=" + name + ", age=" + age + "]";
+	}
+	
+
+}

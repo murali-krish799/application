@@ -1,0 +1,23 @@
+package com.krishsolutions.mutable;
+
+
+
+/**demonstrate of mutable
+ * 
+ */
+public class Client {
+	public static void main(String[] args) {
+		
+		LingaBabu lb= new LingaBabu("babu", 10);
+		
+		System.out.println(lb.hashCode());
+		System.out.println(lb);
+		
+		lb.setAge(2);
+		lb.setName("linga");
+		
+		
+	}
+	
+
+}

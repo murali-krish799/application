@@ -1,0 +1,39 @@
+package com.krishsolutions.immutable;
+
+/**we are going to demonstrate here immutable concept
+ * immutable means can't change the state and data
+ * if change the data means can create new obj doesn't looking to current 
+ * object that is called immutable
+ * 
+ */
+public class ImmutableDemo {
+	
+	public static void main(String[] args) {
+		
+		//immutable->state and date change then create new object
+		String name1="beulah";//-1392442431
+		System.out.println(name1.hashCode());
+		System.out.println(name1);
+		 name1="linga babu";
+		 String name2=name1;
+		System.out.println(name1);
+		System.out.println(name2.hashCode());//1910991015
+		
+		
+		if(name1.hashCode()==name2.hashCode()) {
+			
+			System.out.println("yeah we are same");
+		}
+		
+		else {
+			
+			System.out.println("noop we are not same yaarr sorry");
+		}
+//		String name=new String("babu");
+		
+		
+		
+	}
+
+
+}

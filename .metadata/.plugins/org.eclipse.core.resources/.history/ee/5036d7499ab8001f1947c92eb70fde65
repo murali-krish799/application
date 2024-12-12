@@ -1,0 +1,54 @@
+package com.krishsolutions.mutable;
+
+/**we are demonstrate here mutable concept
+ * of two ways
+ *  those are
+ *  StringBuffer version of 1.0
+ *  1.thread safe
+ *  2.synchronized
+ *  3.can use only mutliThread scenario purpose only
+ *  
+ *  StringBuilder version of 1.5
+ *  1.not a thread safe
+ *  2.not a synchronized
+ *  3.can use only single thread scenario only
+ * 
+ */
+public class MutableDemo {
+	public static void main(String[] args) {
+//		sb =babu modify to babu murali both are frnds
+		//synchronized 0f thread safe
+		StringBuffer sb= new StringBuffer("babu ");//1579572132
+		
+		
+		
+		
+		
+		
+		
+		System.out.println(sb.hashCode());
+		System.out.println(sb);
+		sb.append("murali both are frnds");
+		System.out.println(sb);
+		System.out.println(sb.hashCode());//1579572132
+		
+		StringBuffer append = sb.append("i change the data");
+		
+		System.out.println(append.hashCode());
+		
+		if(sb.hashCode()==append.hashCode()) {
+			
+			System.out.println("yes both are same");
+		}else {
+			
+			System.out.println("both are not same");
+		}
+		
+		System.out.println("demonstrate here StringBuilder");
+		
+		
+		StringBuilder sbuilder= new StringBuilder("babu");
+		
+	}
+
+}

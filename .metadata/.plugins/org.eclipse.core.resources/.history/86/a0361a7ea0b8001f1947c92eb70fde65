@@ -1,0 +1,32 @@
+package com.krishsolutions.mutable;
+
+import java.util.HashMap;
+import java.util.HashSet;
+import java.util.Map;
+import java.util.Set;
+
+/**demonstrate of mutable
+ * 
+ */
+public class Client {
+	public static void main(String[] args) {
+		
+		Set<String>set=new HashSet<String>();
+		Map<String, Integer>map= new HashMap<>();
+		
+		LingaBabu lb= new LingaBabu("babu", 10);
+		
+		System.out.println(lb.hashCode());//1579572132
+		System.out.println(lb);
+		
+		lb.setAge(2);
+		lb.setName("linga");
+		System.out.println(lb.hashCode());//1579572132
+		
+		System.out.println(lb);
+		
+		
+	}
+	
+
+}

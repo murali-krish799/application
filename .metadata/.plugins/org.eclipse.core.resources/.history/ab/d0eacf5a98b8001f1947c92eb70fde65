@@ -1,0 +1,23 @@
+package com.krishsolutions.mutable;
+
+/**we are demonstrate here mutable concept
+ * of two ways
+ *  those are
+ *  StringBuffer version of 1.0
+ *  StringBuilder version of 1.5
+ * 
+ */
+public class MutableDemo {
+	public static void main(String[] args) {
+//		sb =babu modify to babu murali both are frnds
+		StringBuffer sb= new StringBuffer("babu ");//1579572132
+		System.out.println(sb.hashCode());
+		System.out.println(sb);
+		sb.append("murali both are frnds");
+		System.out.println(sb);
+		
+		
+		
+	}
+
+}

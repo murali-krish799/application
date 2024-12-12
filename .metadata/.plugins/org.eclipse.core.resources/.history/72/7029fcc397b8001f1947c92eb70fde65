@@ -1,0 +1,18 @@
+package com.krishsolutions.mutable;
+
+/**we are demonstrate here mutable concept
+ * of two ways
+ *  those are
+ *  Stringbuffer version of 1.0
+ *  StringBuilder version of 1.5
+ * 
+ */
+public class MutableDemo {
+	public static void main(String[] args) {
+		StringBuffer sb= new StringBuffer("babu");
+		
+		
+		
+	}
+
+}
